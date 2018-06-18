@@ -1,0 +1,18 @@
+hello, this is my super sweet description!
+
+
+
+this is going to consist of all of my main text. I hope it sounds alright. 
+
+I may have to change this in the future though, also not sure if my line spaces are preserved.
+
+
+some install text
+
+
+
+change log anyone?
+
+
+
+Lets not forget to give credit to all those people who supported the project!

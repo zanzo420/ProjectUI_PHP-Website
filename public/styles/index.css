@@ -1,0 +1,81 @@
+#recent_entries_container {
+	display: inline-block;
+	position: relative;
+}
+div.recent_entries_header h3 {
+	box-sizing: border-box;
+	margin: 0; padding: 5px;
+	width: 50%;
+	float: left;
+	font-size: 10pt;
+}
+tr.entry td {
+	margin: 0; padding: 5px;
+}
+.entry_info {
+	font-size: 10pt;
+}
+.entry_date {
+	text-align: right;
+	width: 80px;
+	font-size: 10pt;
+}
+.latest_btn {
+	background-color: #0042b3;
+}
+.top_btn {
+	background-color: #002266;
+}
+
+/******************/
+/* banner specific */
+/******************/
+#banner_container {
+	position: relative;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 20px;	
+	display: -webkit-flex;
+    display: flex;
+}
+#banner_image {
+	height: 100%;
+	width: 940px;
+	position: relative;
+}
+#banner_image div.front_image, #banner_image div.back_image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	max-height: 340px;
+	box-shadow: inset 0 0 30px 20px rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 34, 102, 1);
+	background-size: 100% 100%;
+}
+#banner_image div.back_image { z-index: 1; }
+#banner_image div.front_image { z-index: 2; }
+
+#banner_description {
+	max-width: 260px;
+	padding: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+#banner_description a.project_title {
+	color: #66b2ff;
+	font-weight: bold;
+	font-size: 14pt;
+}
+#banner_description a.project_title:hover {
+	color: white;
+}
+#banner_description div.project_description {
+	position: relative;
+	max-height: 200px;
+	overflow: hidden;
+	margin: 20px 0;
+	line-height: 14pt;
+}
+#banner_description div.project_downloads {
+	color: #66b2ff	;
+}

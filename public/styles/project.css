@@ -1,0 +1,167 @@
+#project_banner {
+	position: relative;
+	padding: 0;
+}
+#project_banner_image {
+	width: 100%;
+	max-height: 340px;
+	vertical-align: top; /* or display: block; */
+}
+#banner_list {
+	text-align: center;
+	display: flex;
+}
+#banner_list li:hover {	
+	background-color: #005eff!important;
+	cursor: pointer;
+}
+#arrow_marker {
+	width: 0;
+	height: 0;
+	border-top: 15px solid #005eff;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	position: absolute;
+	z-index: 10;
+	left: 40%;
+	top: -1px;
+	pointer-events: none;
+	display: none;
+}
+#download_button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(0, 94, 255, 0.5);
+	padding: 10px 50px;
+	font-size: 18pt;
+	border-bottom-left-radius: 20px;
+}
+#download_button:hover {
+	cursor: pointer;
+	background-color: rgba(0, 94, 255, 1);
+}
+section.page_section {
+	display: none;
+	padding-top: 20px;
+}
+div.install_step {
+	display: flex;
+	padding: 5px;
+}
+div.install_step div.plus_button, div.install_step div.minus_button {
+	border-radius: 50%;
+	width: 45px;
+	height: 40px; 
+	background-color: #003899;
+	text-align: center;
+	font-size: 16pt;
+	line-height: 40px;
+	padding: 0;
+}
+div.install_step div.plus_button:after {
+	content: "+";
+}
+div.install_step div.minus_button:after {
+	content: "-";
+}
+div.circle_btn {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px; 
+	background-color: #005eff;
+	text-align: center;
+	font-size: 10pt;
+	float: right;
+	line-height: 30px;
+	margin: 5px;	
+}
+div.circle_btn:hover {
+	background-color: #66b2ff;
+	cursor: pointer;
+}
+div.install_step div.plus_button:hover, div.install_step div.minus_button:hover {
+	background-color: #005eff;
+	cursor: pointer;
+}
+div.install_step p {
+	width: 80px;
+}
+div.images_section {
+	display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+div.image_container, div.video_container {
+	position: relative;
+	margin: 5px;
+	padding: 0;
+}
+div.images_section img {
+	opacity: 1;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	left: 0;
+}
+#image_tooltip, #video_tooltip {
+	position: absolute; 
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background-color: rgba(0, 66, 179, 0.6);
+	display: none;
+}
+#image_tooltip div, #video_tooltip div {
+	float: right;
+}
+#image_tooltip p, #video_tooltip p {
+	display: none;
+	float: left;
+	font-size: 12pt;
+	padding: 0;
+	font-style: italic;
+	margin: 8px 0 0 8px;
+}
+#version_scrollbox-container {
+	padding: 10px;
+	margin: 0 20px 0 0;
+}
+#version_scrollbox {
+	overflow-y: auto;
+	max-height: 100px;	
+}
+#version_scrollbox  ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: square;
+}
+#version_scrollbox  ul li {
+	margin-bottom: 4px;
+}
+#version_scrollbox::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+#version_scrollbox::-webkit-scrollbar-thumb {
+	background: #005eff;
+}
+div.videos_section {
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+    justify-content: center;
+}
+div.videos_section iframe {
+	border: 1px solid #005eff;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+

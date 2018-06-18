@@ -1,0 +1,15 @@
+server.js must be executed using node.js to start the socket.io server
+
+MUST RUN IN THIS ORDER:
+mongod
+mongo
+chat_server.js with Node.js
+
+TO SETUP, type in mongo.exe:
+use messages
+
+commands:
+db["messages"].find() // shows all entries! or:
+db.messages.find({"sender": "Mayron"})
+db.messages.find()
+db.messages.remove({}) // remove all documents
