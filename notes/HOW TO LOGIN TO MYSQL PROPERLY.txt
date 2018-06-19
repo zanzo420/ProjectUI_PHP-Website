@@ -1,8 +1,0 @@
-You should always login to MySQL using command prompt at:
-Do NOT use the mysql console shortcut using WAMP!
-
-C:\wamp64\bin\mysql\mysql5.7.9\bin
-
-and type:
-mysql -u Mayron -p projectui
-Fireicexv83445!!
